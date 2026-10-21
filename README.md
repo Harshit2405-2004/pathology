@@ -51,9 +51,17 @@ The nuclei model works at 40× (0.25 µm/px), the tumour model at 10×, each at 
 - **Slide score fixed in advance:** the smoothed max (AUC 0.945). The raw max would have given only 0.819.
 - **Watershed over-splitting handled:** raw distance-map peaks cut one nucleus into several (7 pieces for 4 nuclei in the toy test). Smoothing the map and dropping tiny markers fixed it (4 for 4); `marker_thr` was picked on fold 2 and applied once to fold 3.
 
+## The app
+
+Three tabs, runs on CPU: classify a patch, browse four precomputed slide heatmaps (the slide score, tumour area and speed come with each), and outline, type and count the nuclei in a 40x tile.
+
+| Tumour patch | Whole-slide heatmap | Nuclei |
+|---|---|---|
+| ![](assets/app_patch.png) | ![](assets/app_slides.png) | ![](assets/app_nuclei.png) |
+
 ## Run it
-- **Notebooks:** open them in Colab with a T4 GPU and run top to bottom. Steps and checks are in [execute.md](execute.md).
-- **App:** the Drive folders, local setup and deployment on Streamlit Community Cloud are in [guide.md](guide.md).
+- **Notebooks:** open them in Colab with a T4 GPU and run top to bottom.
+- **App:** the model files are already in `app/artifacts/` (about 74 MB). Install `app/requirements.txt` and start `app/app.py` with Streamlit.
 
 ## Repository
 ```
