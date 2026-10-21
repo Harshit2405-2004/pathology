@@ -2,7 +2,7 @@
 
 Finds cancer that has spread to lymph nodes on whole-slide images: gigapixel scans of about 100,000 × 100,000 px (CAMELYON16). A ResNet-18 trained on 96 px patches (PatchCamelyon) is run over every tissue window of a slide, giving a tumour heatmap, a slide-level score and the tumour regions. A second model, a U-Net on PanNuke, outlines, types and counts the nuclei in tissue tiles.
 
-**PyTorch · OpenSlide · segmentation-models-pytorch · Streamlit · Google Colab (T4)** · [Live app](#) · [Results](RESULTS.md)
+**PyTorch · OpenSlide · segmentation-models-pytorch · Streamlit · Google Colab (T4)** · [Live app](https://pathology.streamlit.app/) · [Results](RESULTS.md)
 
 > Student project on public data. Not a medical device.
 
