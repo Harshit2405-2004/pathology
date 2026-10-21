@@ -1,0 +1,13 @@
+{
+  "slide": "test_007",
+  "width": 97792,
+  "height": 221184,
+  "mpp0": 0.24309399999999998,
+  "cell_um": 31.116031999999997,
+  "tissue_cells": 60317,
+  "windows": 197632,
+  "seconds_total": 27.761191844940186,
+  "seconds_waiting_for_data": 2.8278164863586426,
+  "seconds_model": 12.689184188842773,
+  "windows_per_second": 7119.002710829968
+}

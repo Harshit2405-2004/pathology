@@ -1,0 +1,10 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+streamlit>=1.40
+torch
+torchvision
+segmentation-models-pytorch>=0.3.4
+scikit-image>=0.22
+scipy
+numpy
+pandas
+pillow

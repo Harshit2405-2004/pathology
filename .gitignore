@@ -1,0 +1,22 @@
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.ipynb_checkpoints/
+
+# large files that should not go to github
+*.npy
+*.h5
+*.h5.gz
+*.tif
+*.tiff
+*.svs
+*.zip
+pcam_resnet18.pt
+nuclei_unet.pt
+data/
+
+# os
+.DS_Store
+Thumbs.db

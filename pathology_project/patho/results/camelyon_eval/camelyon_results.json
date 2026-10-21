@@ -1,0 +1,52 @@
+{
+  "slides": 40,
+  "tumour_slides": 20,
+  "auc_max_smooth": {
+    "auc": 0.945,
+    "ci95": [
+      0.853,
+      1.0
+    ]
+  },
+  "auc_max_prob": {
+    "auc": 0.819,
+    "ci95": [
+      0.698,
+      0.927
+    ]
+  },
+  "auc_top10_mean": {
+    "auc": 0.921,
+    "ci95": [
+      0.826,
+      0.992
+    ]
+  },
+  "auc_tumour_area_mm2": {
+    "auc": 0.823,
+    "ci95": [
+      0.685,
+      0.938
+    ]
+  },
+  "auc_largest_region_mm2": {
+    "auc": 0.917,
+    "ci95": [
+      0.821,
+      0.982
+    ]
+  },
+  "auc_center_0": 1.0,
+  "auc_center_1": 0.817,
+  "recall_at_0.5": 1.0,
+  "specificity_at_0.5": 0.0,
+  "recall_by_class": {
+    "macro": 1.0,
+    "micro": 1.0
+  },
+  "median_windows_per_s": 8500,
+  "cell_auc_tumour_slides": 0.986,
+  "cell_dice_tumour_slides": 0.904,
+  "lesions_found": "139 / 140",
+  "fp_regions_per_slide": 609.95
+}

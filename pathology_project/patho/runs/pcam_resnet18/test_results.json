@@ -1,0 +1,108 @@
+{
+  "results": {
+    "plain": {
+      "val_at_thr": {
+        "threshold": 0.0543,
+        "auc": 0.9609,
+        "accuracy": 0.8942,
+        "recall": 0.9001,
+        "precision": 0.8894,
+        "specificity": 0.8883,
+        "tn": 14567,
+        "fp": 1832,
+        "fn": 1636,
+        "tp": 14733
+      },
+      "test_at_thr": {
+        "threshold": 0.0543,
+        "auc": 0.9413,
+        "accuracy": 0.8735,
+        "recall": 0.8484,
+        "precision": 0.8932,
+        "specificity": 0.8987,
+        "tn": 14730,
+        "fp": 1661,
+        "fn": 2483,
+        "tp": 13894
+      },
+      "test_at_0.5": {
+        "threshold": 0.5,
+        "auc": 0.9413,
+        "accuracy": 0.8276,
+        "recall": 0.676,
+        "precision": 0.97,
+        "specificity": 0.9791,
+        "tn": 16049,
+        "fp": 342,
+        "fn": 5306,
+        "tp": 11071
+      },
+      "test_auc_ci95_slides": [
+        0.9176,
+        0.9615
+      ]
+    },
+    "tta": {
+      "val_at_thr": {
+        "threshold": 0.1138,
+        "auc": 0.9671,
+        "accuracy": 0.9106,
+        "recall": 0.9001,
+        "precision": 0.9192,
+        "specificity": 0.921,
+        "tn": 15103,
+        "fp": 1296,
+        "fn": 1635,
+        "tp": 14734
+      },
+      "test_at_thr": {
+        "threshold": 0.1138,
+        "auc": 0.9488,
+        "accuracy": 0.8837,
+        "recall": 0.8342,
+        "precision": 0.9258,
+        "specificity": 0.9332,
+        "tn": 15296,
+        "fp": 1095,
+        "fn": 2716,
+        "tp": 13661
+      },
+      "test_at_0.5": {
+        "threshold": 0.5,
+        "auc": 0.9488,
+        "accuracy": 0.8317,
+        "recall": 0.6785,
+        "precision": 0.978,
+        "specificity": 0.9847,
+        "tn": 16141,
+        "fp": 250,
+        "fn": 5265,
+        "tp": 11112
+      },
+      "test_auc_ci95_slides": [
+        0.9256,
+        0.968
+      ]
+    }
+  },
+  "split_report": {
+    "train": {
+      "patches": 262144,
+      "tumour_share": 0.5,
+      "slides": 216
+    },
+    "valid": {
+      "patches": 32768,
+      "tumour_share": 0.5,
+      "slides": 54
+    },
+    "test": {
+      "patches": 32768,
+      "tumour_share": 0.5,
+      "slides": 129
+    },
+    "shared slides train-valid": 0,
+    "shared slides train-test": 0,
+    "shared slides valid-test": 0
+  }
+}
